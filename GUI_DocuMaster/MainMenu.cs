@@ -16,5 +16,13 @@ namespace GUI_DocuMaster
         {
             InitializeComponent();
         }
+
+        private void btnCompDoc_Click(object sender, EventArgs e)
+        {
+            CompareDocument CompareDocument = new CompareDocument();
+            CompareDocument.Show();
+
+            this.Hide();
+        }
     }
 }

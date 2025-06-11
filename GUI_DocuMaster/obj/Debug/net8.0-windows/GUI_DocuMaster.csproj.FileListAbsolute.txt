@@ -21,3 +21,17 @@ C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\
 C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\obj\Debug\net8.0-windows\ref\GUI_DocuMaster.dll
 C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\obj\Debug\net8.0-windows\GUI_DocuMaster.HomePage.resources
 C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\obj\Debug\net8.0-windows\GUI_DocuMaster.MainMenu.resources
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\obj\Debug\net8.0-windows\GUI_DocuMaster.CompareDocument.resources
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\Xceed.Document.NET.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\Xceed.Drawing.NET.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\Xceed.Words.NET.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\SkiaSharp.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\UglyToad.PdfPig.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\UglyToad.PdfPig.Core.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\UglyToad.PdfPig.Fonts.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\UglyToad.PdfPig.Tokenization.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\GUI_DocuMaster\bin\Debug\net8.0-windows\UglyToad.PdfPig.Tokens.dll
