@@ -120,6 +120,16 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DocX": {
+              "target": "Package",
+              "version": "[4.0.25105.5786, )"
+            },
+            "UglyToad.PdfPig": {
+              "target": "Package",
+              "version": "[1.7.0-custom-5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

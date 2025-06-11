@@ -62,6 +62,7 @@
             btnCompDoc.Size = new Size(150, 150);
             btnCompDoc.TabIndex = 2;
             btnCompDoc.UseVisualStyleBackColor = true;
+            btnCompDoc.Click += btnCompDoc_Click;
             // 
             // MainMenu
             // 
