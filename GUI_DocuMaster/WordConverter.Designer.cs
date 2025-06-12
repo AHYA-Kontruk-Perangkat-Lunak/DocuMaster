@@ -34,7 +34,7 @@
             btnConvertWord = new Button();
             TBFilePath = new TextBox();
             lblStatus = new Label();
-            btnback = new Button();
+            button4 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -78,6 +78,7 @@
             // lblFilePath
             // 
             lblFilePath.Dock = DockStyle.Fill;
+            lblFilePath.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblFilePath.Location = new Point(3, 0);
             lblFilePath.Name = "lblFilePath";
             lblFilePath.Size = new Size(472, 50);
@@ -120,15 +121,16 @@
             lblStatus.TabIndex = 3;
             lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // btnback
+            // button4
             // 
-            btnback.Location = new Point(32, 253);
-            btnback.Name = "btnback";
-            btnback.Size = new Size(113, 36);
-            btnback.TabIndex = 1;
-            btnback.Text = "Back";
-            btnback.UseVisualStyleBackColor = true;
-            btnback.Click += btnback_Click;
+            button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(220, 324);
+            button4.Name = "button4";
+            button4.Size = new Size(46, 25);
+            button4.TabIndex = 10;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // WordConverter
             // 
@@ -136,7 +138,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(478, 612);
-            Controls.Add(btnback);
+            Controls.Add(button4);
             Controls.Add(tableLayoutPanel1);
             Name = "WordConverter";
             StartPosition = FormStartPosition.CenterScreen;
@@ -156,6 +158,6 @@
         private Button btnConvertWord;
         private TextBox TBFilePath;
         private Label lblStatus;
-        private Button btnback;
+        private Button button4;
     }
 }

@@ -33,6 +33,9 @@
             label2 = new Label();
             btnCompDoc = new Button();
             btnWord = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -67,13 +70,44 @@
             // 
             // btnWord
             // 
+            btnWord.BackgroundImage = (Image)resources.GetObject("btnWord.BackgroundImage");
             btnWord.Location = new Point(263, 130);
             btnWord.Name = "btnWord";
             btnWord.Size = new Size(160, 150);
             btnWord.TabIndex = 3;
-            btnWord.Text = "button1";
             btnWord.UseVisualStyleBackColor = true;
             btnWord.Click += button1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(28, 283);
+            label3.Name = "label3";
+            label3.Size = new Size(163, 21);
+            label3.TabIndex = 4;
+            label3.Text = "Compare Document";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(284, 283);
+            label4.Name = "label4";
+            label4.Size = new Size(116, 21);
+            label4.TabIndex = 5;
+            label4.Text = "Convert Word";
+            // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(12, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(46, 25);
+            button4.TabIndex = 10;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // MainMenu
             // 
@@ -81,6 +115,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
+            Controls.Add(button4);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(btnWord);
             Controls.Add(btnCompDoc);
             Controls.Add(label2);
@@ -98,5 +135,8 @@
         private Label label2;
         private Button btnCompDoc;
         private Button btnWord;
+        private Label label3;
+        private Label label4;
+        private Button button4;
     }
 }

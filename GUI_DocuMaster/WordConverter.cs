@@ -85,5 +85,13 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
+
+            this.Hide();
+        }
     }
 }

@@ -31,5 +31,13 @@ namespace GUI_DocuMaster
             WordConverter.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage home = new HomePage();
+            home.Show();
+
+            this.Hide();
+        }
     }
 }
