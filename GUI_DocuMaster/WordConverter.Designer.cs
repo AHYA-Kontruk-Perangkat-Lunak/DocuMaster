@@ -78,6 +78,7 @@
             // lblFilePath
             // 
             lblFilePath.Dock = DockStyle.Fill;
+            lblFilePath.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblFilePath.Location = new Point(3, 0);
             lblFilePath.Name = "lblFilePath";
             lblFilePath.Size = new Size(472, 50);
@@ -122,9 +123,10 @@
             // 
             // btnback
             // 
-            btnback.Location = new Point(32, 253);
+            btnback.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnback.Location = new Point(199, 274);
             btnback.Name = "btnback";
-            btnback.Size = new Size(113, 36);
+            btnback.Size = new Size(77, 33);
             btnback.TabIndex = 1;
             btnback.Text = "Back";
             btnback.UseVisualStyleBackColor = true;
@@ -139,6 +141,7 @@
             Controls.Add(btnback);
             Controls.Add(tableLayoutPanel1);
             Name = "WordConverter";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "WordConverter";
             Load += WordConverter_Load;
             tableLayoutPanel1.ResumeLayout(false);

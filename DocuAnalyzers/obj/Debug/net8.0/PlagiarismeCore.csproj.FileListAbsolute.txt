@@ -9,18 +9,6 @@ C:\Users\Amirul\Downloads\PlagiarismeSolution\PlagiarismeCore\obj\Debug\net8.0\P
 C:\Users\Amirul\Downloads\PlagiarismeSolution\PlagiarismeCore\obj\Debug\net8.0\refint\PlagiarismeCore.dll
 C:\Users\Amirul\Downloads\PlagiarismeSolution\PlagiarismeCore\obj\Debug\net8.0\PlagiarismeCore.pdb
 C:\Users\Amirul\Downloads\PlagiarismeSolution\PlagiarismeCore\obj\Debug\net8.0\ref\PlagiarismeCore.dll
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.deps.json
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.dll
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.pdb
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.GeneratedMSBuildEditorConfig.editorconfig
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.AssemblyInfoInputs.cache
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.AssemblyInfo.cs
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.csproj.CoreCompileInputs.cache
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.sourcelink.json
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.dll
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\refint\PlagiarismeCore.dll
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.pdb
-C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\ref\PlagiarismeCore.dll
 C:\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.deps.json
 C:\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.dll
 C:\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.pdb
@@ -33,3 +21,15 @@ C:\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.dll
 C:\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\refint\PlagiarismeCore.dll
 C:\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.pdb
 C:\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\ref\PlagiarismeCore.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.deps.json
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\bin\Debug\net8.0\PlagiarismeCore.pdb
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.AssemblyInfoInputs.cache
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.AssemblyInfo.cs
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.csproj.CoreCompileInputs.cache
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.sourcelink.json
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\refint\PlagiarismeCore.dll
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\PlagiarismeCore.pdb
+C:\Kuliah\Kuliah_Semester_4\Kontruksi Perangkat Lunak\DocuMaster\DocuAnalyzers\obj\Debug\net8.0\ref\PlagiarismeCore.dll
