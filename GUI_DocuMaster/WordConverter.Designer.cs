@@ -139,6 +139,7 @@
             Controls.Add(btnback);
             Controls.Add(tableLayoutPanel1);
             Name = "WordConverter";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "WordConverter";
             Load += WordConverter_Load;
             tableLayoutPanel1.ResumeLayout(false);
