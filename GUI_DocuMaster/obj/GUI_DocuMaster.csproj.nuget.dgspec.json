@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj": {}
+    "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj": {}
   },
   "projects": {
-    "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
+    "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+        "projectUniqueName": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
         "projectName": "PlagiarismeCore",
-        "projectPath": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
-        "packagesPath": "C:\\Users\\timotius\\.nuget\\packages\\",
-        "outputPath": "C:\\DocuMaster\\DocuAnalyzers\\obj\\",
+        "projectPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+        "packagesPath": "C:\\Users\\Amirul\\.nuget\\packages\\",
+        "outputPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\timotius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amirul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,24 +66,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj": {
+    "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj",
+        "projectUniqueName": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj",
         "projectName": "GUI_DocuMaster",
-        "projectPath": "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj",
-        "packagesPath": "C:\\Users\\timotius\\.nuget\\packages\\",
-        "outputPath": "C:\\DocuMaster\\GUI_DocuMaster\\obj\\",
+        "projectPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj",
+        "packagesPath": "C:\\Users\\Amirul\\.nuget\\packages\\",
+        "outputPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\timotius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amirul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,14 +92,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
-                "projectPath": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj"
+              "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
+                "projectPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj"
               }
             }
           }
@@ -151,7 +153,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

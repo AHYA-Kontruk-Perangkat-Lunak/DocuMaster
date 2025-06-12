@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlagiarismeCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+accefb3b9413af606ae9e0d11a07ecc7bbc9b15b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65cbc3d29903f35d209f51daa87bcf7eddea469c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlagiarismeCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlagiarismeCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\DocuMaster\\",
+  "WorkspaceRootPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI_DocuMaster\\WordConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI_DocuMaster\\WordConverter.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GUI_DocuMaster\\GUI_DocuMaster.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -52,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WordConverter.Designer.cs",
-              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
+              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
               "RelativeDocumentMoniker": "GUI_DocuMaster\\WordConverter.Designer.cs",
-              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
               "RelativeToolTip": "GUI_DocuMaster\\WordConverter.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WordConverter.cs",
-              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
+              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
               "RelativeDocumentMoniker": "GUI_DocuMaster\\WordConverter.cs",
-              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
               "RelativeToolTip": "GUI_DocuMaster\\WordConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,9 +81,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GUI_DocuMaster.csproj.user",
-              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
+              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
               "RelativeDocumentMoniker": "GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
-              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
               "RelativeToolTip": "GUI_DocuMaster\\GUI_DocuMaster.csproj.user",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
