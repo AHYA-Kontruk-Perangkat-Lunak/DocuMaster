@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc8291f7cbb7c9bf61fea92f87a1b0d9075bd2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53fd2940454eb7340344c3a6d208c224dba8fde6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
