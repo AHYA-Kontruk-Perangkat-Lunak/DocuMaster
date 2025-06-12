@@ -77,5 +77,13 @@ namespace GUI_DocuMaster
                 lblStatus.Text = "✅ Word berhasil disimpan!";
             }
         }
+
+        private void btnback_Click(object sender, EventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
+
+            this.Hide();
+        }
     }
 }

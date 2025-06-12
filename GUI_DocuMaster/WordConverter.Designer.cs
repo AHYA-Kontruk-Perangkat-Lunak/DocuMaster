@@ -34,6 +34,7 @@
             btnConvertWord = new Button();
             TBFilePath = new TextBox();
             lblStatus = new Label();
+            btnback = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -57,17 +58,18 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            tableLayoutPanel1.Size = new Size(800, 250);
+            tableLayoutPanel1.Size = new Size(478, 250);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // btnBrowse
             // 
-            btnBrowse.BackColor = Color.LightSteelBlue;
+            btnBrowse.BackColor = Color.Ivory;
             btnBrowse.Dock = DockStyle.Fill;
-            btnBrowse.ForeColor = Color.DarkSlateGray;
+            btnBrowse.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnBrowse.ForeColor = Color.Black;
             btnBrowse.Location = new Point(3, 53);
             btnBrowse.Name = "btnBrowse";
-            btnBrowse.Size = new Size(794, 44);
+            btnBrowse.Size = new Size(472, 44);
             btnBrowse.TabIndex = 1;
             btnBrowse.Text = "Browse";
             btnBrowse.UseVisualStyleBackColor = false;
@@ -78,7 +80,7 @@
             lblFilePath.Dock = DockStyle.Fill;
             lblFilePath.Location = new Point(3, 0);
             lblFilePath.Name = "lblFilePath";
-            lblFilePath.Size = new Size(794, 50);
+            lblFilePath.Size = new Size(472, 50);
             lblFilePath.TabIndex = 0;
             lblFilePath.Text = "Pilih file anda";
             lblFilePath.TextAlign = ContentAlignment.MiddleCenter;
@@ -86,12 +88,13 @@
             // 
             // btnConvertWord
             // 
-            btnConvertWord.BackColor = Color.LightSteelBlue;
+            btnConvertWord.BackColor = Color.Ivory;
             btnConvertWord.Dock = DockStyle.Fill;
-            btnConvertWord.ForeColor = Color.DarkSlateGray;
+            btnConvertWord.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnConvertWord.ForeColor = Color.Black;
             btnConvertWord.Location = new Point(3, 153);
             btnConvertWord.Name = "btnConvertWord";
-            btnConvertWord.Size = new Size(794, 44);
+            btnConvertWord.Size = new Size(472, 44);
             btnConvertWord.TabIndex = 2;
             btnConvertWord.Text = "Convert";
             btnConvertWord.UseVisualStyleBackColor = false;
@@ -103,7 +106,7 @@
             TBFilePath.Location = new Point(3, 103);
             TBFilePath.Name = "TBFilePath";
             TBFilePath.ReadOnly = true;
-            TBFilePath.Size = new Size(794, 25);
+            TBFilePath.Size = new Size(472, 25);
             TBFilePath.TabIndex = 1;
             TBFilePath.TextChanged += textBox1_TextChanged;
             // 
@@ -113,15 +116,27 @@
             lblStatus.ForeColor = Color.Green;
             lblStatus.Location = new Point(3, 200);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(794, 50);
+            lblStatus.Size = new Size(472, 50);
             lblStatus.TabIndex = 3;
             lblStatus.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnback
+            // 
+            btnback.Location = new Point(32, 253);
+            btnback.Name = "btnback";
+            btnback.Size = new Size(113, 36);
+            btnback.TabIndex = 1;
+            btnback.Text = "Back";
+            btnback.UseVisualStyleBackColor = true;
+            btnback.Click += btnback_Click;
             // 
             // WordConverter
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.Info;
+            ClientSize = new Size(478, 612);
+            Controls.Add(btnback);
             Controls.Add(tableLayoutPanel1);
             Name = "WordConverter";
             Text = "WordConverter";
@@ -140,5 +155,6 @@
         private Button btnConvertWord;
         private TextBox TBFilePath;
         private Label lblStatus;
+        private Button btnback;
     }
 }

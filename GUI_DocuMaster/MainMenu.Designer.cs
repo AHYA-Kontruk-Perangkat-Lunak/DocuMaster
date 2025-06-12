@@ -32,6 +32,7 @@
             label1 = new Label();
             label2 = new Label();
             btnCompDoc = new Button();
+            btnWord = new Button();
             SuspendLayout();
             // 
             // label1
@@ -64,12 +65,23 @@
             btnCompDoc.UseVisualStyleBackColor = true;
             btnCompDoc.Click += btnCompDoc_Click;
             // 
+            // btnWord
+            // 
+            btnWord.Location = new Point(263, 130);
+            btnWord.Name = "btnWord";
+            btnWord.Size = new Size(160, 150);
+            btnWord.TabIndex = 3;
+            btnWord.Text = "button1";
+            btnWord.UseVisualStyleBackColor = true;
+            btnWord.Click += button1_Click;
+            // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
+            Controls.Add(btnWord);
             Controls.Add(btnCompDoc);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -85,5 +97,6 @@
         private Label label1;
         private Label label2;
         private Button btnCompDoc;
+        private Button btnWord;
     }
 }

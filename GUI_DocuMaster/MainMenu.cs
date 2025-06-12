@@ -24,5 +24,12 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WordConverter WordConverter = new WordConverter();
+            WordConverter.Show();
+            this.Hide();
+        }
     }
 }
