@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zP3hfjM4EEQ=",
+  "dgSpecHash": "ulk52bzqrE4=",
   "success": true,
-  "projectFilePath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+  "projectFilePath": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

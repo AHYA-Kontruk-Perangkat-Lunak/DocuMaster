@@ -1,33 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\",
+  "WorkspaceRootPath": "C:\\DocuMaster\\GUI_DocuMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\wordconverter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:wordconverter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:wordconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\DocuMaster\\GUI_DocuMaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\DocuMaster\\GUI_DocuMaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\DocuMaster\\GUI_DocuMaster\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,19 +50,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WordConverter.Designer.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
+              "RelativeDocumentMoniker": "WordConverter.Designer.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.Designer.cs",
+              "RelativeToolTip": "WordConverter.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:25:04.409Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WordConverter.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
+              "RelativeDocumentMoniker": "WordConverter.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
+              "RelativeToolTip": "WordConverter.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:24:57.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WordConverter.cs [Design]",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs",
+              "RelativeDocumentMoniker": "WordConverter.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\WordConverter.cs [Design]",
+              "RelativeToolTip": "WordConverter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:23:19.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Program.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Program.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,77 +129,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
               "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs [Design]",
-              "RelativeToolTip": "HomePage.cs [Design]",
+              "RelativeToolTip": "..\\..\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:03:04.516Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-11T12:03:04.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "FileTextReader.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
               "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
               "RelativeToolTip": "Helpers\\FileTextReader.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:44:55.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompareDocument.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeDocumentMoniker": "CompareDocument.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs [Design]",
-              "RelativeToolTip": "CompareDocument.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:00:17.807Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompareDocument.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeDocumentMoniker": "CompareDocument.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeToolTip": "CompareDocument.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:38:00.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T11:44:55.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CompareDocument.cs [Design]",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeDocumentMoniker": "CompareDocument.cs",
+              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs [Design]",
+              "RelativeToolTip": "..\\..\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:00:17.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompareDocument.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeDocumentMoniker": "CompareDocument.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeToolTip": "CompareDocument.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:38:00.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs [Design]",
-              "RelativeToolTip": "MainMenu.cs [Design]",
+              "RelativeToolTip": "..\\..\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T09:36:26.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "DocumentMoniker": "C:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "ToolTip": "C:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeToolTip": "HomePage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:26:19.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T11:26:19.78Z"
             }
           ]
         }

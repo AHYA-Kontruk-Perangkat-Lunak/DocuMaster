@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {}
+    "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {}
   },
   "projects": {
-    "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
+    "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+        "projectUniqueName": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
         "projectName": "PlagiarismeCore",
-        "projectPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
-        "packagesPath": "C:\\Users\\Amirul\\.nuget\\packages\\",
-        "outputPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\obj\\",
+        "projectPath": "C:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+        "packagesPath": "C:\\Users\\timotius\\.nuget\\packages\\",
+        "outputPath": "C:\\DocuMaster\\DocuAnalyzers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amirul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\timotius\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
