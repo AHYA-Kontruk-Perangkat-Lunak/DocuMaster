@@ -24,5 +24,13 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+
+            this.Hide();
+        }
     }
 }

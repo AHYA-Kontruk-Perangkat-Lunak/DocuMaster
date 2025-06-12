@@ -118,6 +118,7 @@
             // 
             // richTextBox1
             // 
+            richTextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.Location = new Point(8, 292);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
