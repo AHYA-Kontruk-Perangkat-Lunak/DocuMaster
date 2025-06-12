@@ -56,6 +56,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(243, 23);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
@@ -125,6 +126,7 @@
             richTextBox1.Size = new Size(444, 297);
             richTextBox1.TabIndex = 8;
             richTextBox1.Text = "";
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // button4
             // 
@@ -156,6 +158,7 @@
             Name = "CompareDocument";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CompareDocument";
+            Load += CompareDocument_Load;
             ResumeLayout(false);
             PerformLayout();
         }

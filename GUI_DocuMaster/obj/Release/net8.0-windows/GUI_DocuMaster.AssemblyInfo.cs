@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53fd2940454eb7340344c3a6d208c224dba8fde6")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c9eb6299bd8f1aff75ca36f81aafb9f38678b0f")]
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
 [assembly: System.Reflection.AssemblyProductAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GUI_DocuMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

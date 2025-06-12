@@ -25,11 +25,18 @@ namespace GUI_DocuMaster
             this.Hide();
         }
 
+<<<<<<< HEAD
         private void button4_Click(object sender, EventArgs e)
         {
             HomePage homePage = new HomePage();
             homePage.Show();
 
+=======
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WordConverter WordConverter = new WordConverter();
+            WordConverter.Show();
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
             this.Hide();
         }
     }

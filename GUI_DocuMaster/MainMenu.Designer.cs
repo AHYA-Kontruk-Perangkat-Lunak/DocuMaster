@@ -32,6 +32,7 @@
             label1 = new Label();
             label2 = new Label();
             btnCompDoc = new Button();
+<<<<<<< HEAD
             label3 = new Label();
             button4 = new Button();
             button1 = new Button();
@@ -40,6 +41,9 @@
             button3 = new Button();
             label5 = new Label();
             label6 = new Label();
+=======
+            btnWord = new Button();
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
             SuspendLayout();
             // 
             // label1
@@ -72,6 +76,7 @@
             btnCompDoc.UseVisualStyleBackColor = true;
             btnCompDoc.Click += btnCompDoc_Click;
             // 
+<<<<<<< HEAD
             // label3
             // 
             label3.AutoSize = true;
@@ -149,6 +154,17 @@
             label6.Size = new Size(164, 21);
             label6.TabIndex = 16;
             label6.Text = "Summary Generator";
+=======
+            // btnWord
+            // 
+            btnWord.Location = new Point(263, 130);
+            btnWord.Name = "btnWord";
+            btnWord.Size = new Size(160, 150);
+            btnWord.TabIndex = 3;
+            btnWord.Text = "button1";
+            btnWord.UseVisualStyleBackColor = true;
+            btnWord.Click += button1_Click;
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
             // 
             // MainMenu
             // 
@@ -156,6 +172,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
+<<<<<<< HEAD
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(button3);
@@ -164,6 +181,9 @@
             Controls.Add(button1);
             Controls.Add(button4);
             Controls.Add(label3);
+=======
+            Controls.Add(btnWord);
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
             Controls.Add(btnCompDoc);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -179,6 +199,7 @@
         private Label label1;
         private Label label2;
         private Button btnCompDoc;
+<<<<<<< HEAD
         private Label label3;
         private Button button4;
         private Button button1;
@@ -187,5 +208,8 @@
         private Button button3;
         private Label label5;
         private Label label6;
+=======
+        private Button btnWord;
+>>>>>>> 73369d1d8f17854e2671ed746988a338ef2133b1
     }
 }
