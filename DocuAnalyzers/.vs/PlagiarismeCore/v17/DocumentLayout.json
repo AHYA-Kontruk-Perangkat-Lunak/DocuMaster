@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\",
+  "WorkspaceRootPath": "D:\\DocuMaster\\DocuAnalyzers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\analyzers\\normalisasitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\normalisasitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\plagiarismecore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:plagiarismecore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\analyzers\\penghitungtotalkarakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungtotalkarakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\analyzers\\penghitungfrekuensikata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\penghitungfrekuensikata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungfrekuensikata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\analyzers\\penghitungkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\normalisasitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\normalisasitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\analyzers\\penghitungkata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\penghitungkata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungkata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\docuanalyzers\\plagiarismecore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:plagiarismecore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\penghitungtotalkarakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungtotalkarakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\penghitungkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D69949-FA14-4BA6-BF4E-B96519FDDE62}|PlagiarismeCore.csproj|solutionrelative:analyzers\\penghitungkalimat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,88 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PenghitungFrekuensiKata.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungFrekuensiKata.cs",
-              "RelativeDocumentMoniker": "Analyzers\\PenghitungFrekuensiKata.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungFrekuensiKata.cs",
-              "RelativeToolTip": "Analyzers\\PenghitungFrekuensiKata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:10:39.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NormalisasiText.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
-              "RelativeDocumentMoniker": "Analyzers\\NormalisasiText.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
-              "RelativeToolTip": "Analyzers\\NormalisasiText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:10:27.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PenghitungKata.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKata.cs",
-              "RelativeDocumentMoniker": "Analyzers\\PenghitungKata.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKata.cs",
-              "RelativeToolTip": "Analyzers\\PenghitungKata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:10:13.634Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PenghitungKalimat.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKalimat.cs",
-              "RelativeDocumentMoniker": "Analyzers\\PenghitungKalimat.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKalimat.cs",
-              "RelativeToolTip": "Analyzers\\PenghitungKalimat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PenghitungFrekuensiKata.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungFrekuensiKata.cs",
+              "RelativeDocumentMoniker": "Analyzers\\PenghitungFrekuensiKata.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungFrekuensiKata.cs",
+              "RelativeToolTip": "Analyzers\\PenghitungFrekuensiKata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:07:55.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T09:10:39.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PenghitungTotalKarakter.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
-              "RelativeDocumentMoniker": "Analyzers\\PenghitungTotalKarakter.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
-              "RelativeToolTip": "Analyzers\\PenghitungTotalKarakter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NormalisasiText.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "RelativeDocumentMoniker": "Analyzers\\NormalisasiText.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "RelativeToolTip": "Analyzers\\NormalisasiText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:07:53.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T09:10:27.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PenghitungKata.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKata.cs",
+              "RelativeDocumentMoniker": "Analyzers\\PenghitungKata.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKata.cs",
+              "RelativeToolTip": "Analyzers\\PenghitungKata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:10:13.634Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PenghitungKalimat.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKalimat.cs",
+              "RelativeDocumentMoniker": "Analyzers\\PenghitungKalimat.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungKalimat.cs",
+              "RelativeToolTip": "Analyzers\\PenghitungKalimat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:07:55.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PenghitungTotalKarakter.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "RelativeDocumentMoniker": "Analyzers\\PenghitungTotalKarakter.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "RelativeToolTip": "Analyzers\\PenghitungTotalKarakter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:07:53.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "PlagiarismeCore.csproj",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
               "RelativeDocumentMoniker": "PlagiarismeCore.csproj",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\PlagiarismeCore.csproj",
               "RelativeToolTip": "PlagiarismeCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-09T13:42:57.491Z"
+              "WhenOpened": "2025-06-09T13:42:57.491Z",
+              "EditorCaption": ""
             }
           ]
         }
