@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\DocuMaster\\GUI_DocuMaster\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\comparedocument.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -48,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,20 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CompareDocument.Designer.cs",
-              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
-              "RelativeDocumentMoniker": "CompareDocument.Designer.cs",
-              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
-              "RelativeToolTip": "CompareDocument.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T07:51:53.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NormalisasiText.cs",
               "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
               "RelativeDocumentMoniker": "..\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
@@ -81,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PenghitungTotalKarakter.cs",
               "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
               "RelativeDocumentMoniker": "..\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
@@ -93,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomePage.cs [Design]",
               "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
@@ -104,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CompareDocument.cs [Design]",
               "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
               "RelativeDocumentMoniker": "CompareDocument.cs",
@@ -115,7 +102,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "FileTextReader.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeToolTip": "Helpers\\FileTextReader.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:44:55.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompareDocument.Designer.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
+              "RelativeDocumentMoniker": "CompareDocument.Designer.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
+              "RelativeToolTip": "CompareDocument.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:51:53.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CompareDocument.cs",
               "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
               "RelativeDocumentMoniker": "CompareDocument.cs",
@@ -127,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainMenu.cs [Design]",
               "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
@@ -135,18 +147,6 @@
               "RelativeToolTip": "MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T09:36:26.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FileTextReader.cs",
-              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
-              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeToolTip": "Helpers\\FileTextReader.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:44:55.021Z"
             },
             {
               "$type": "Document",

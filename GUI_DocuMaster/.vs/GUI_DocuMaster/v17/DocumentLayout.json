@@ -48,24 +48,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompareDocument.Designer.cs",
-              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
-              "RelativeDocumentMoniker": "CompareDocument.Designer.cs",
-              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
-              "RelativeToolTip": "CompareDocument.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T07:51:53.054Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,6 +102,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileTextReader.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeToolTip": "Helpers\\FileTextReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:44:55.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompareDocument.Designer.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
+              "RelativeDocumentMoniker": "CompareDocument.Designer.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.Designer.cs",
+              "RelativeToolTip": "CompareDocument.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:51:53.054Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CompareDocument.cs",
               "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
@@ -135,19 +147,6 @@
               "RelativeToolTip": "MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T09:36:26.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileTextReader.cs",
-              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
-              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeToolTip": "Helpers\\FileTextReader.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:44:55.021Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
