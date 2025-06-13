@@ -25,22 +25,21 @@ namespace GUI_DocuMaster
             this.Hide();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             WordConverter WordConverter = new WordConverter();
             WordConverter.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            HomePage home = new HomePage();
-            home.Show();
 
             this.Hide();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btnConvertPDF_Click(object sender, EventArgs e)
         {
             PDFConvert pdf = new PDFConvert();
             pdf.Show();
