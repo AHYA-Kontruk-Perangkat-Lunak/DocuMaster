@@ -1,33 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\",
+  "WorkspaceRootPath": "D:\\DocuMaster\\GUI_DocuMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B12FF348-A33C-B019-A091-ABF6E79FD1EC}|..\\DocuAnalyzers\\PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\normalisasitext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|D:\\DocuMaster\\GUI_DocuMaster\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|c:\\kuliah\\kuliah_semester_4\\kontruksi perangkat lunak\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|D:\\DocuMaster\\GUI_DocuMaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|D:\\DocuMaster\\GUI_DocuMaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12FF348-A33C-B019-A091-ABF6E79FD1EC}|..\\DocuAnalyzers\\PlagiarismeCore.csproj|d:\\documaster\\docuanalyzers\\analyzers\\penghitungtotalkarakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:comparedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:helpers\\filetextreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|d:\\documaster\\gui_documaster\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C108AB6D-058D-4B02-97F7-8A956B6CC34D}|GUI_DocuMaster.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,10 +53,96 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NormalisasiText.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "RelativeDocumentMoniker": "..\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "RelativeToolTip": "..\\DocuAnalyzers\\Analyzers\\NormalisasiText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:10:36.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PenghitungTotalKarakter.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "RelativeDocumentMoniker": "..\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "ToolTip": "D:\\DocuMaster\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "RelativeToolTip": "..\\DocuAnalyzers\\Analyzers\\PenghitungTotalKarakter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T16:08:44.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs [Design]",
+              "RelativeToolTip": "HomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T12:03:04.516Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompareDocument.cs [Design]",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeDocumentMoniker": "CompareDocument.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs [Design]",
+              "RelativeToolTip": "CompareDocument.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:00:17.807Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompareDocument.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeDocumentMoniker": "CompareDocument.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
+              "RelativeToolTip": "CompareDocument.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:38:00.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs [Design]",
+              "RelativeToolTip": "MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:36:26.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileTextReader.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
+              "RelativeToolTip": "Helpers\\FileTextReader.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:44:55.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Program.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Program.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,77 +151,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
-              "RelativeDocumentMoniker": "HomePage.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs [Design]",
-              "RelativeToolTip": "HomePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:03:04.516Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileTextReader.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeDocumentMoniker": "Helpers\\FileTextReader.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\Helpers\\FileTextReader.cs",
-              "RelativeToolTip": "Helpers\\FileTextReader.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:44:55.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompareDocument.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeDocumentMoniker": "CompareDocument.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs [Design]",
-              "RelativeToolTip": "CompareDocument.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:00:17.807Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompareDocument.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeDocumentMoniker": "CompareDocument.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\CompareDocument.cs",
-              "RelativeToolTip": "CompareDocument.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T10:38:00.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\MainMenu.cs [Design]",
-              "RelativeToolTip": "MainMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T09:36:26.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "DocumentMoniker": "D:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeDocumentMoniker": "HomePage.cs",
-              "ToolTip": "C:\\Kuliah\\Kuliah_Semester_4\\Kontruksi Perangkat Lunak\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
+              "ToolTip": "D:\\DocuMaster\\GUI_DocuMaster\\HomePage.cs",
               "RelativeToolTip": "HomePage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:26:19.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T11:26:19.78Z"
             }
           ]
         }
