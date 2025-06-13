@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using Xceed.Words.NET; // untuk docx
+using Xceed.Words.NET;
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
