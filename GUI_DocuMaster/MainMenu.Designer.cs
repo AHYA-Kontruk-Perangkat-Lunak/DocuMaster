@@ -36,8 +36,8 @@
             label3 = new Label();
             label4 = new Label();
             button4 = new Button();
-            button1 = new Button();
             label5 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -66,7 +66,7 @@
             // 
             btnCompDoc.BackgroundImage = (Image)resources.GetObject("btnCompDoc.BackgroundImage");
             btnCompDoc.Location = new Point(45, 173);
-            btnCompDoc.Margin = new Padding(4, 4, 4, 4);
+            btnCompDoc.Margin = new Padding(4);
             btnCompDoc.Name = "btnCompDoc";
             btnCompDoc.Size = new Size(193, 200);
             btnCompDoc.TabIndex = 2;
@@ -77,7 +77,7 @@
             // 
             btnWord.BackgroundImage = (Image)resources.GetObject("btnWord.BackgroundImage");
             btnWord.Location = new Point(338, 173);
-            btnWord.Margin = new Padding(4, 4, 4, 4);
+            btnWord.Margin = new Padding(4);
             btnWord.Name = "btnWord";
             btnWord.Size = new Size(206, 200);
             btnWord.TabIndex = 3;
@@ -110,24 +110,13 @@
             // 
             button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.Location = new Point(15, 16);
-            button4.Margin = new Padding(4, 4, 4, 4);
+            button4.Margin = new Padding(4);
             button4.Name = "button4";
             button4.Size = new Size(59, 33);
             button4.TabIndex = 10;
             button4.Text = "Back";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
-            // 
-            // button1
-            // 
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.Location = new Point(45, 450);
-            button1.Margin = new Padding(4);
-            button1.Name = "button1";
-            button1.Size = new Size(193, 200);
-            button1.TabIndex = 11;
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
             // 
             // label5
             // 
@@ -139,6 +128,17 @@
             label5.Size = new Size(132, 29);
             label5.TabIndex = 12;
             label5.Text = "PDF Convert";
+            // 
+            // button1
+            // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(45, 450);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(193, 200);
+            button1.TabIndex = 11;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // MainMenu
             // 
@@ -155,7 +155,7 @@
             Controls.Add(btnCompDoc);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainMenu";
@@ -172,7 +172,7 @@
         private Label label3;
         private Label label4;
         private Button button4;
-        private Button button1;
         private Label label5;
+        private Button button1;
     }
 }
