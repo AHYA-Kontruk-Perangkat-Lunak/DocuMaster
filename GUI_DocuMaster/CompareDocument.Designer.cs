@@ -31,12 +31,12 @@
             label1 = new Label();
             textBox1 = new TextBox();
             label2 = new Label();
-            button1 = new Button();
+            btnBrowse1 = new Button();
             label3 = new Label();
             textBox2 = new TextBox();
-            button2 = new Button();
-            button3 = new Button();
-            richTextBox1 = new RichTextBox();
+            btnBrowse2 = new Button();
+            btnCompare = new Button();
+            rtbHasil = new RichTextBox();
             button4 = new Button();
             SuspendLayout();
             // 
@@ -68,15 +68,15 @@
             label2.TabIndex = 2;
             label2.Text = "Document 1";
             // 
-            // button1
+            // btnBrowse1
             // 
-            button1.Location = new Point(379, 110);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Browse";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnBrowse1.Location = new Point(379, 110);
+            btnBrowse1.Name = "btnBrowse1";
+            btnBrowse1.Size = new Size(75, 23);
+            btnBrowse1.TabIndex = 3;
+            btnBrowse1.Text = "Browse";
+            btnBrowse1.UseVisualStyleBackColor = true;
+            btnBrowse1.Click += button1_Click;
             // 
             // label3
             // 
@@ -96,37 +96,37 @@
             textBox2.TabIndex = 5;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
-            // button2
+            // btnBrowse2
             // 
-            button2.Location = new Point(379, 179);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 6;
-            button2.Text = "Browse";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnBrowse2.Location = new Point(379, 179);
+            btnBrowse2.Name = "btnBrowse2";
+            btnBrowse2.Size = new Size(75, 23);
+            btnBrowse2.TabIndex = 6;
+            btnBrowse2.Text = "Browse";
+            btnBrowse2.UseVisualStyleBackColor = true;
+            btnBrowse2.Click += button2_Click;
             // 
-            // button3
+            // btnCompare
             // 
-            button3.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(144, 234);
-            button3.Name = "button3";
-            button3.Size = new Size(166, 33);
-            button3.TabIndex = 7;
-            button3.Text = "Temukan Perbedaan";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnCompare.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCompare.Location = new Point(144, 234);
+            btnCompare.Name = "btnCompare";
+            btnCompare.Size = new Size(166, 33);
+            btnCompare.TabIndex = 7;
+            btnCompare.Text = "Temukan Perbedaan";
+            btnCompare.UseVisualStyleBackColor = true;
+            btnCompare.Click += button3_Click;
             // 
-            // richTextBox1
+            // rtbHasil
             // 
-            richTextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richTextBox1.Location = new Point(8, 292);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(444, 297);
-            richTextBox1.TabIndex = 8;
-            richTextBox1.Text = "";
-            richTextBox1.TextChanged += richTextBox1_TextChanged;
+            rtbHasil.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rtbHasil.Location = new Point(8, 292);
+            rtbHasil.Name = "rtbHasil";
+            rtbHasil.ReadOnly = true;
+            rtbHasil.Size = new Size(444, 297);
+            rtbHasil.TabIndex = 8;
+            rtbHasil.Text = "";
+            rtbHasil.TextChanged += richTextBox1_TextChanged;
             // 
             // button4
             // 
@@ -146,12 +146,12 @@
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
             Controls.Add(button4);
-            Controls.Add(richTextBox1);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(rtbHasil);
+            Controls.Add(btnCompare);
+            Controls.Add(btnBrowse2);
             Controls.Add(textBox2);
             Controls.Add(label3);
-            Controls.Add(button1);
+            Controls.Add(btnBrowse1);
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
@@ -168,12 +168,12 @@
         private Label label1;
         private TextBox textBox1;
         private Label label2;
-        private Button button1;
+        private Button btnBrowse1;
         private Label label3;
         private TextBox textBox2;
-        private Button button2;
-        private Button button3;
-        private RichTextBox richTextBox1;
+        private Button btnBrowse2;
+        private Button btnCompare;
+        private RichTextBox rtbHasil;
         private Button button4;
     }
 }
