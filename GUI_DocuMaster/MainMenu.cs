@@ -39,5 +39,13 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            PDFConvert pdf = new PDFConvert();
+            pdf.Show();
+
+            this.Hide();
+        }
     }
 }
