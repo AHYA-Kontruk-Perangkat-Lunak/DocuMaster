@@ -32,12 +32,21 @@
             lblWelcome = new Label();
             lblDocuMaster = new Label();
             btnCompDoc = new Button();
+
+            btnWord = new Button();
+            label3 = new Label();
+            label4 = new Label();
+            button4 = new Button();
+            label5 = new Label();
+            button1 = new Button();
+          
             btncConvertWord = new Button();
             lblCompareDocument = new Label();
             lblConvertWord = new Label();
             btnBack = new Button();
             lblConvertPDF = new Label();
             btnConvertPDF = new Button();
+
             SuspendLayout();
             // 
             // lblWelcome
@@ -63,13 +72,74 @@
             // btnCompDoc
             // 
             btnCompDoc.BackgroundImage = (Image)resources.GetObject("btnCompDoc.BackgroundImage");
+
+            btnCompDoc.Location = new Point(45, 173);
+            btnCompDoc.Margin = new Padding(4);
+
             btnCompDoc.Location = new Point(35, 130);
+
             btnCompDoc.Name = "btnCompDoc";
             btnCompDoc.Size = new Size(150, 150);
             btnCompDoc.TabIndex = 2;
             btnCompDoc.UseVisualStyleBackColor = true;
             btnCompDoc.Click += btnCompDoc_Click;
             // 
+            // btnWord
+            // 
+            btnWord.BackgroundImage = (Image)resources.GetObject("btnWord.BackgroundImage");
+            btnWord.Location = new Point(338, 173);
+            btnWord.Margin = new Padding(4);
+            btnWord.Name = "btnWord";
+            btnWord.Size = new Size(206, 200);
+            btnWord.TabIndex = 3;
+            btnWord.UseVisualStyleBackColor = true;
+            btnWord.Click += button1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(36, 377);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(195, 29);
+            label3.TabIndex = 4;
+            label3.Text = "Compare Document";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(365, 377);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(149, 29);
+            label4.TabIndex = 5;
+            label4.Text = "Convert Word";
+            // 
+            // button4
+            // 
+            button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(15, 16);
+            button4.Margin = new Padding(4);
+            button4.Name = "button4";
+            button4.Size = new Size(59, 33);
+            button4.TabIndex = 10;
+            button4.Text = "Back";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(78, 654);
+            label5.Margin = new Padding(4, 0, 4, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(132, 29);
+            label5.TabIndex = 12;
+            label5.Text = "PDF Convert";
+            //
             // btncConvertWord
             // 
             btncConvertWord.BackgroundImage = (Image)resources.GetObject("btncConvertWord.BackgroundImage");
@@ -130,6 +200,17 @@
             btnConvertPDF.UseVisualStyleBackColor = true;
             btnConvertPDF.Click += btnConvertPDF_Click;
             // 
+            // button1
+            // 
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.Location = new Point(45, 450);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(193, 200);
+            button1.TabIndex = 11;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // MainMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -143,8 +224,12 @@
             Controls.Add(lblCompareDocument);
             Controls.Add(btncConvertWord);
             Controls.Add(btnCompDoc);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Margin = new Padding(4);
             Controls.Add(lblDocuMaster);
             Controls.Add(lblWelcome);
+
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainMenu";
@@ -157,6 +242,12 @@
         private Label lblWelcome;
         private Label lblDocuMaster;
         private Button btnCompDoc;
+        private Button btnWord;
+        private Label label3;
+        private Label label4;
+        private Button button4;
+        private Label label5;
+        private Button button1;
         private Button btncConvertWord;
         private Label lblCompareDocument;
         private Label lblConvertWord;
