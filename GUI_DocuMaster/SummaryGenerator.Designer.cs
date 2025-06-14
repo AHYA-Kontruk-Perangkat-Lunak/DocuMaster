@@ -62,11 +62,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Emoji", 15.75F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ControlDarkDark;
             label3.Location = new Point(114, 44);
             label3.Name = "label3";
-            label3.Size = new Size(214, 28);
+            label3.Size = new Size(227, 28);
             label3.TabIndex = 2;
             label3.Text = "Summary Generator";
             label3.Click += label3_Click;
@@ -120,14 +120,14 @@
             richTextBox1.Font = new Font("Arial", 9.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
             richTextBox1.Location = new Point(65, 204);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(308, 205);
+            richTextBox1.Size = new Size(308, 303);
             richTextBox1.TabIndex = 7;
             richTextBox1.Text = "";
             // 
             // button2
             // 
             button2.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(65, 415);
+            button2.Location = new Point(65, 513);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 8;
@@ -138,7 +138,7 @@
             // button3
             // 
             button3.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(156, 415);
+            button3.Location = new Point(156, 513);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 9;
@@ -160,7 +160,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(439, 450);
+            BackColor = SystemColors.Info;
+            ClientSize = new Size(464, 601);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);

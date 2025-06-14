@@ -9,7 +9,6 @@ namespace GUI_DocuMaster
     {
         private System.ComponentModel.IContainer components = null;
 
-        // Only declare each control ONCE
         private Label lblWelcome;
         private Label lblDocuMaster;
         private Button btnCompDoc;
@@ -20,6 +19,7 @@ namespace GUI_DocuMaster
         private Label lblCompareDocument;
         private Label lblConvertWord;
         private Label lblConvertPDF;
+        private PictureBox pBoxSummary;
 
         protected override void Dispose(bool disposing)
         {
@@ -37,8 +37,6 @@ namespace GUI_DocuMaster
             lblWelcome = new Label();
             lblDocuMaster = new Label();
             btnCompDoc = new Button();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             btnWord = new Button();
             btnConvertPDF = new Button();
             btncConvertWord = new Button();
@@ -46,6 +44,9 @@ namespace GUI_DocuMaster
             lblCompareDocument = new Label();
             lblConvertWord = new Label();
             lblConvertPDF = new Label();
+            pBoxSummary = new PictureBox();
+            label1 = new Label();
+            ((ISupportInitialize)pBoxSummary).BeginInit();
             SuspendLayout();
             // 
             // lblWelcome
@@ -60,15 +61,6 @@ namespace GUI_DocuMaster
             // 
             // lblDocuMaster
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Image = (Image)resources.GetObject("label2.Image");
-            label2.Location = new Point(207, 43);
-            label2.Name = "label2";
-            label2.Size = new Size(153, 32);
-            label2.TabIndex = 1;
-            label2.Text = "DocuMaster";
-            label2.Click += label2_Click;
             lblDocuMaster.AutoSize = true;
             lblDocuMaster.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblDocuMaster.Location = new Point(207, 43);
@@ -80,29 +72,19 @@ namespace GUI_DocuMaster
             // btnCompDoc
             // 
             btnCompDoc.BackgroundImage = (Image)resources.GetObject("btnCompDoc.BackgroundImage");
-            btnCompDoc.Location = new Point(63, 130);
+            btnCompDoc.Location = new Point(35, 130);
             btnCompDoc.Name = "btnCompDoc";
             btnCompDoc.Size = new Size(150, 150);
             btnCompDoc.TabIndex = 2;
             btnCompDoc.UseVisualStyleBackColor = true;
             btnCompDoc.Click += btnCompDoc_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(253, 130);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(150, 150);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 3;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // btnWord
             // 
             btnWord.Location = new Point(338, 173);
             btnWord.Name = "btnWord";
             btnWord.Size = new Size(206, 200);
-            btnWord.TabIndex = 3;
+            btnWord.TabIndex = 4;
             btnWord.UseVisualStyleBackColor = true;
             btnWord.Click += button1_Click;
             // 
@@ -112,7 +94,7 @@ namespace GUI_DocuMaster
             btnConvertPDF.Location = new Point(35, 337);
             btnConvertPDF.Name = "btnConvertPDF";
             btnConvertPDF.Size = new Size(150, 150);
-            btnConvertPDF.TabIndex = 4;
+            btnConvertPDF.TabIndex = 5;
             btnConvertPDF.UseVisualStyleBackColor = true;
             btnConvertPDF.Click += btnConvertPDF_Click;
             // 
@@ -122,7 +104,7 @@ namespace GUI_DocuMaster
             btncConvertWord.Location = new Point(263, 130);
             btncConvertWord.Name = "btncConvertWord";
             btncConvertWord.Size = new Size(160, 150);
-            btncConvertWord.TabIndex = 5;
+            btncConvertWord.TabIndex = 6;
             btncConvertWord.UseVisualStyleBackColor = true;
             btncConvertWord.Click += button1_Click;
             // 
@@ -132,7 +114,7 @@ namespace GUI_DocuMaster
             btnBack.Location = new Point(12, 12);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(46, 25);
-            btnBack.TabIndex = 6;
+            btnBack.TabIndex = 7;
             btnBack.Text = "Back";
             btnBack.UseVisualStyleBackColor = true;
             btnBack.Click += button4_Click;
@@ -144,7 +126,7 @@ namespace GUI_DocuMaster
             lblCompareDocument.Location = new Point(28, 283);
             lblCompareDocument.Name = "lblCompareDocument";
             lblCompareDocument.Size = new Size(163, 21);
-            lblCompareDocument.TabIndex = 7;
+            lblCompareDocument.TabIndex = 8;
             lblCompareDocument.Text = "Compare Document";
             // 
             // lblConvertWord
@@ -154,7 +136,7 @@ namespace GUI_DocuMaster
             lblConvertWord.Location = new Point(284, 283);
             lblConvertWord.Name = "lblConvertWord";
             lblConvertWord.Size = new Size(116, 21);
-            lblConvertWord.TabIndex = 8;
+            lblConvertWord.TabIndex = 9;
             lblConvertWord.Text = "Convert Word";
             // 
             // lblConvertPDF
@@ -164,8 +146,29 @@ namespace GUI_DocuMaster
             lblConvertPDF.Location = new Point(61, 490);
             lblConvertPDF.Name = "lblConvertPDF";
             lblConvertPDF.Size = new Size(104, 21);
-            lblConvertPDF.TabIndex = 9;
+            lblConvertPDF.TabIndex = 10;
             lblConvertPDF.Text = "PDF Convert";
+            // 
+            // pBoxSummary
+            // 
+            pBoxSummary.Image = (Image)resources.GetObject("pBoxSummary.Image");
+            pBoxSummary.Location = new Point(263, 337);
+            pBoxSummary.Name = "pBoxSummary";
+            pBoxSummary.Size = new Size(160, 150);
+            pBoxSummary.SizeMode = PictureBoxSizeMode.StretchImage;
+            pBoxSummary.TabIndex = 3;
+            pBoxSummary.TabStop = false;
+            pBoxSummary.Click += pictureBox1_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(259, 490);
+            label1.Name = "label1";
+            label1.Size = new Size(164, 21);
+            label1.TabIndex = 11;
+            label1.Text = "Summary Generator";
             // 
             // MainMenu
             // 
@@ -173,7 +176,8 @@ namespace GUI_DocuMaster
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
-            Controls.Add(pictureBox1);
+            Controls.Add(label1);
+            Controls.Add(pBoxSummary);
             Controls.Add(btnConvertPDF);
             Controls.Add(lblConvertPDF);
             Controls.Add(btnBack);
@@ -186,15 +190,12 @@ namespace GUI_DocuMaster
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainMenu";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((ISupportInitialize)pBoxSummary).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
         #endregion
 
         private Label label1;
-        private Label label2;
-        private Button btnCompDoc;
-        private PictureBox pictureBox1;
     }
 }
