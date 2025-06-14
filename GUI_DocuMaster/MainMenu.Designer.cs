@@ -32,6 +32,8 @@
             label1 = new Label();
             label2 = new Label();
             btnCompDoc = new Button();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -48,21 +50,34 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Image = (Image)resources.GetObject("label2.Image");
             label2.Location = new Point(207, 43);
             label2.Name = "label2";
             label2.Size = new Size(153, 32);
             label2.TabIndex = 1;
             label2.Text = "DocuMaster";
+            label2.Click += label2_Click;
             // 
             // btnCompDoc
             // 
             btnCompDoc.BackgroundImage = (Image)resources.GetObject("btnCompDoc.BackgroundImage");
-            btnCompDoc.Location = new Point(35, 130);
+            btnCompDoc.Location = new Point(63, 130);
             btnCompDoc.Name = "btnCompDoc";
             btnCompDoc.Size = new Size(150, 150);
             btnCompDoc.TabIndex = 2;
             btnCompDoc.UseVisualStyleBackColor = true;
             btnCompDoc.Click += btnCompDoc_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(253, 130);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(150, 150);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // MainMenu
             // 
@@ -70,12 +85,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
+            Controls.Add(pictureBox1);
             Controls.Add(btnCompDoc);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "MainMenu";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainMenu";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -85,5 +102,6 @@
         private Label label1;
         private Label label2;
         private Button btnCompDoc;
+        private PictureBox pictureBox1;
     }
 }

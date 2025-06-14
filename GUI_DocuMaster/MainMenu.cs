@@ -24,5 +24,21 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Menyembunyikan form MainMenu
+            this.Hide();
+
+            // Membuka form SummaryGenerator
+            SummaryGenerator summaryForm = new SummaryGenerator();
+            summaryForm.Show();
+        }
+
     }
 }
