@@ -37,20 +37,22 @@
             // textBox1
             // 
             textBox1.Font = new Font("Cascadia Code", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(31, 168);
+            textBox1.Location = new Point(24, 126);
+            textBox1.Margin = new Padding(2, 2, 2, 2);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(378, 25);
+            textBox1.Size = new Size(407, 21);
             textBox1.TabIndex = 3;
             textBox1.UseWaitCursor = true;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
-            button1.Font = new Font("Berlin Sans FB", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(31, 104);
+            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(24, 78);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(378, 48);
+            button1.Size = new Size(407, 36);
             button1.TabIndex = 4;
             button1.Text = "Browse";
             button1.UseVisualStyleBackColor = true;
@@ -58,10 +60,11 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Berlin Sans FB", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(31, 216);
+            button2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(24, 162);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(378, 47);
+            button2.Size = new Size(407, 35);
             button2.TabIndex = 5;
             button2.Text = "Convert";
             button2.UseVisualStyleBackColor = true;
@@ -69,10 +72,11 @@
             // 
             // button3
             // 
-            button3.Font = new Font("Palatino Linotype", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(12, 24);
+            button3.Font = new Font("Palatino Linotype", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(9, 18);
+            button3.Margin = new Padding(2, 2, 2, 2);
             button3.Name = "button3";
-            button3.Size = new Size(59, 28);
+            button3.Size = new Size(61, 29);
             button3.TabIndex = 6;
             button3.Text = "Back";
             button3.UseVisualStyleBackColor = true;
@@ -80,14 +84,15 @@
             // 
             // PDFConvert
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
-            ClientSize = new Size(462, 593);
+            ClientSize = new Size(464, 601);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "PDFConvert";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "PDFConvert";
