@@ -41,3 +41,7 @@ publish/
 .env
 *.secret
 *.token
+=======
+.vs
+bin
+obj

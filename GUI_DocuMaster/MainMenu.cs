@@ -40,5 +40,26 @@ namespace GUI_DocuMaster
             summaryForm.Show();
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            HomePage homePage = new HomePage();
+            homePage.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WordConverter WordConverter = new WordConverter();
+            WordConverter.Show();
+
+            this.Hide();
+        }
+
+        private void btnConvertPDF_Click(object sender, EventArgs e)
+        {
+            PDFConvert pdf = new PDFConvert();
+            pdf.Show();
+
+            this.Hide();
+        }
     }
 }

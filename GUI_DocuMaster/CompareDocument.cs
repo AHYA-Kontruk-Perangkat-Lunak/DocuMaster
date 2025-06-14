@@ -73,11 +73,11 @@ namespace GUI_DocuMaster
                 //}
 
                 // Gabungkan hasil statistik + hasil compare ke RichTextBox
-                richTextBox1.Text = stats1 + "\n" + stats2 + "\n" + hasilPerbedaan;
+                rtbHasil.Text = stats1 + "\n" + stats2 + "\n" + hasilPerbedaan;
 
                 double persentase = SimilarityHelper.CalculateJaccardSimilarity(path1, path2);
 
-                richTextBox1.Text =
+                rtbHasil.Text =
                     stats1 + "\n" + stats2 +
                     $"\nPersentase kemiripan (berdasarkan kata unik): {persentase:F2}%" +
                     "\n" + hasilPerbedaan;
@@ -94,6 +94,21 @@ namespace GUI_DocuMaster
             mainMenu.Show();
 
             this.Hide();
+        }
+
+        private void CompareDocument_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
