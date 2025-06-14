@@ -10,6 +10,9 @@
     <Compile Update="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SummaryGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PDFConvert.cs">
       <SubType>Form</SubType>
     </Compile>

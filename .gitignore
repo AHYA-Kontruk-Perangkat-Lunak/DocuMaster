@@ -1,3 +1,47 @@
+# =========================
+# GLOBAL
+# =========================
+.vs/
+*.user
+*.suo
+*.log
+*.tmp
+*.bak
+*.orig
+*.dbmdl
+*.swp
+*.DS_Store
+Thumbs.db
+
+# =========================
+# VISUAL STUDIO BIN/OBJ
+# =========================
+GUI_DocuMaster/bin/
+GUI_DocuMaster/obj/
+DocuAnalyzers/bin/
+DocuAnalyzers/obj/
+
+# =========================
+# NUGET & PACKAGE FILES
+# =========================
+*.nupkg
+*.snupkg
+packages/
+
+# =========================
+# PUBLISH / DEPLOY FOLDER
+# =========================
+publish/
+*.deploy/
+*.publish.xml
+
+# =========================
+# ENVIRONMENT SECRETS
+# =========================
+.env
+*.secret
+*.token
+=======
 .vs
 bin
 obj
