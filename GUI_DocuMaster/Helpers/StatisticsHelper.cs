@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using PlagiarismeCore.Analyzers;
 
-namespace DocuMaster.Helpers // Ganti dengan namespace sesuai project GUI kamu
+namespace DocuMaster.Helpers
 {
     public static class StatisticsHelper
     {
