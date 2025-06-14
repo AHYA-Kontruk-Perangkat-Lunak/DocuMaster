@@ -1,6 +1,5 @@
 ﻿using System.IO;
-using Novacode;
-using Xceed.Words.NET;
+using Xceed.Words.NET; // Pakai DocX modern, jangan Novacode
 using UglyToad.PdfPig;
 using UglyToad.PdfPig.Content;
 
