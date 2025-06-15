@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GUI_DocuMaster
@@ -15,50 +8,41 @@ namespace GUI_DocuMaster
         public MainMenu()
         {
             InitializeComponent();
+            this.FormClosed += (s, e) => Application.Exit();
         }
 
         private void btnCompDoc_Click(object sender, EventArgs e)
         {
-            CompareDocument CompareDocument = new CompareDocument();
-            CompareDocument.Show();
-
-            this.Hide();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            // Menyembunyikan form MainMenu
-            this.Hide();
-
-            // Membuka form SummaryGenerator
-            SummaryGenerator summaryForm = new SummaryGenerator();
-            summaryForm.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            HomePage homePage = new HomePage();
-            homePage.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            WordConverter WordConverter = new WordConverter();
-            WordConverter.Show();
-
+            var compareForm = new CompareDocument();
+            compareForm.Show();
             this.Hide();
         }
 
         private void btnConvertPDF_Click(object sender, EventArgs e)
         {
-            PDFConvert pdf = new PDFConvert();
-            pdf.Show();
+            var pdfConvert = new PDFConvert();
+            pdfConvert.Show();
+            this.Hide();
+        }
 
+        private void btncConvertWord_Click(object sender, EventArgs e)
+        {
+            var wordConverter = new WordConverter();
+            wordConverter.Show();
+            this.Hide();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            var homePage = new HomePage();
+            homePage.Show();
+            this.Hide();
+        }
+
+        private void pBoxSummary_Click(object sender, EventArgs e)
+        {
+            var summaryForm = new SummaryGenerator();
+            summaryForm.Show();
             this.Hide();
         }
     }

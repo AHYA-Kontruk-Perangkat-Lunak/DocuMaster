@@ -14,10 +14,5 @@ namespace GUI_DocuMaster
 
             this.Hide();
         }
-
-        private void HomePage_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

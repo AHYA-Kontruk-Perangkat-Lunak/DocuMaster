@@ -174,6 +174,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "SummaryGenerator";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SummaryGenerator";
             ResumeLayout(false);
             PerformLayout();

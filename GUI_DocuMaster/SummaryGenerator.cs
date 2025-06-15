@@ -18,6 +18,8 @@ namespace GUI_DocuMaster
 
             string token = "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";
             summaryStrategy = new HuggingFaceSummaryStrategy(token);
+
+            this.FormClosed += (s, e) => Application.Exit();
         }
 
         // Fungsi untuk memilih file
