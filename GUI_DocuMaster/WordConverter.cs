@@ -1,11 +1,7 @@
 ﻿using Spire.Doc;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -18,80 +14,104 @@ namespace GUI_DocuMaster
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        // Inisialisasi awal saat form dimuat
         private void WordConverter_Load(object sender, EventArgs e)
         {
-
+            lblStatus.Text = string.Empty; // Kosongkan status pesan dari sesi sebelumnya
         }
 
-        private void lblFilePath_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // Event handler untuk tombol "Browse"
         private void btnBrowse_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFile = new OpenFileDialog();
-            openFile.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
-
-            if (openFile.ShowDialog() == DialogResult.OK)
+            // Menampilkan dialog untuk memilih file input .txt
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                TBFilePath.Text = openFile.FileName;
-                lblStatus.Text = "";
+                openFileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    TBFilePath.Text = openFileDialog.FileName;
+                    lblStatus.Text = string.Empty; // Reset pesan status sebelumnya
+                }
             }
         }
 
+        // Event handler untuk tombol "Convert to Word"
         private async void btnConvertWord_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(TBFilePath.Text) || !File.Exists(TBFilePath.Text))
+            // Validasi awal: pastikan file yang dipilih valid dan eksis
+            if (!IsValidInputFile(TBFilePath.Text))
             {
-                lblStatus.ForeColor = Color.Red;
-                lblStatus.Text = "❌ File tidak valid.";
+                ShowStatus("❌ File tidak valid.", Color.Red);
                 return;
             }
 
-            SaveFileDialog saveDialog = new SaveFileDialog();
-            saveDialog.Filter = "Word Document (*.docx)|*.docx";
-            saveDialog.FileName = Path.GetFileNameWithoutExtension(TBFilePath.Text) + ".docx";
-
-            if (saveDialog.ShowDialog() == DialogResult.OK)
+            // Tampilkan dialog simpan untuk menentukan lokasi dan nama file output
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                lblStatus.ForeColor = Color.Black;
-                lblStatus.Text = "⏳ Sedang mengonversi...";
+                saveFileDialog.Filter = "Word Document (*.docx)|*.docx";
+                saveFileDialog.FileName = Path.GetFileNameWithoutExtension(TBFilePath.Text) + ".docx";
 
-                await Task.Run(() =>
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    string content = File.ReadAllText(TBFilePath.Text);
+                    ShowStatus("⏳ Sedang mengonversi...", Color.Black); // Feedback proses berjalan
 
-                    Document doc = new Document();
-                    Section section = doc.AddSection();
-                    section.AddParagraph().AppendText(content);
-                    doc.SaveToFile(saveDialog.FileName, FileFormat.Docx);
-                });
+                    try
+                    {
+                        // Jalankan proses konversi secara asynchronous agar UI tetap responsif
+                        await ConvertTextFileToWordAsync(TBFilePath.Text, saveFileDialog.FileName);
 
-                lblStatus.ForeColor = Color.Green;
-                lblStatus.Text = "✅ Word berhasil disimpan!";
+                        ShowStatus("✅ Word berhasil disimpan!", Color.Green); // Feedback sukses
+                    }
+                    catch (Exception ex)
+                    {
+                        // Tangani kesalahan dan tampilkan ke user (tanpa crash)
+                        ShowStatus($"❌ Terjadi kesalahan: {ex.Message}", Color.Red);
+                    }
+                }
             }
         }
 
-        private void btnback_Click(object sender, EventArgs e)
+        // Fungsi utama konversi dari .txt ke .docx menggunakan library FreeSpire.Doc
+        private async Task ConvertTextFileToWordAsync(string inputPath, string outputPath)
         {
-            MainMenu mainMenu = new MainMenu();
-            mainMenu.Show();
+            await Task.Run(() =>
+            {
+                string content = File.ReadAllText(inputPath); // Ambil isi file .txt
 
-            this.Hide();
+                Document doc = new Document(); // Buat dokumen baru
+                Section section = doc.AddSection();
+                section.AddParagraph().AppendText(content); // Tambahkan isi ke paragraf
+
+                doc.SaveToFile(outputPath, FileFormat.Docx); // Simpan sebagai .docx
+            });
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        // Fungsi validasi: periksa apakah file ada dan tidak kosong
+        private bool IsValidInputFile(string path)
+        {
+            return !string.IsNullOrWhiteSpace(path) && File.Exists(path);
+        }
+
+        // Fungsi utilitas: tampilkan pesan status ke user
+        private void ShowStatus(string message, Color color)
+        {
+            lblStatus.ForeColor = color;
+            lblStatus.Text = message;
+        }
+
+        // Navigasi kembali ke halaman menu utama
+        private void btnBack_Click(object sender, EventArgs e)
         {
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
+            this.Hide(); // Sembunyikan form saat ini untuk hindari duplikasi tampilan
+        }
 
-            this.Hide();
+        // Navigasi alternatif (redundan tapi dipertahankan jika dipakai layout)
+        private void button4_Click(object sender, EventArgs e)
+        {
+            btnBack_Click(sender, e); // Alihkan ke handler utama
         }
     }
 }
