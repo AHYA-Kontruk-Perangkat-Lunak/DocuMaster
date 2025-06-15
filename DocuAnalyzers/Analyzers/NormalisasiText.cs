@@ -19,8 +19,8 @@ namespace PlagiarismeCore.Analyzers
         /// </summary>
         public static string Normalize(string text)
         {
-            if (text is null)
-                throw new ArgumentNullException(nameof(text));
+            if (string.IsNullOrWhiteSpace(text))
+                return string.Empty;
 
             // 1. Decompose ke FormD dan buang non-spacing marks (diakritik)
             string formD = text.Normalize(NormalizationForm.FormD);

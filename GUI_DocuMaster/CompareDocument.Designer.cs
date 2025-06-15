@@ -1,16 +1,26 @@
-﻿namespace GUI_DocuMaster
+﻿using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace GUI_DocuMaster
 {
     partial class CompareDocument
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        // Semua field hanya dideklarasi sekali
+        private Label lblTitle;
+        private TextBox txtFile1;
+        private Label lblFile1;
+        private Button btnBrowse1;
+        private Label lblFile2;
+        private TextBox txtFile2;
+        private Button btnBrowse2;
+        private Button btnCompare;
+        private RichTextBox rtbResult;
+        private Button btnBack;
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,51 +32,46 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
+            lblTitle = new Label();
+            txtFile1 = new TextBox();
+            lblFile1 = new Label();
             btnBrowse1 = new Button();
-            label3 = new Label();
-            textBox2 = new TextBox();
+            lblFile2 = new Label();
+            txtFile2 = new TextBox();
             btnBrowse2 = new Button();
             btnCompare = new Button();
-            rtbHasil = new RichTextBox();
-            button4 = new Button();
+            rtbResult = new RichTextBox();
+            btnBack = new Button();
             SuspendLayout();
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(100, 45);
-            label1.Name = "label1";
-            label1.Size = new Size(243, 32);
-            label1.TabIndex = 0;
-            label1.Text = "Compare Document";
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.Location = new Point(100, 45);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(243, 32);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Compare Document";
             // 
-            // textBox1
+            // txtFile1
             // 
-            textBox1.Location = new Point(116, 110);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(243, 23);
-            textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
+            txtFile1.Location = new Point(116, 110);
+            txtFile1.Name = "txtFile1";
+            txtFile1.Size = new Size(243, 23);
+            txtFile1.TabIndex = 1;
             // 
-            // label2
+            // lblFile1
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(7, 112);
-            label2.Name = "label2";
-            label2.Size = new Size(103, 21);
-            label2.TabIndex = 2;
-            label2.Text = "Document 1";
+            lblFile1.AutoSize = true;
+            lblFile1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFile1.Location = new Point(7, 112);
+            lblFile1.Name = "lblFile1";
+            lblFile1.Size = new Size(103, 21);
+            lblFile1.TabIndex = 2;
+            lblFile1.Text = "Document 1";
             // 
             // btnBrowse1
             // 
@@ -76,25 +81,24 @@
             btnBrowse1.TabIndex = 3;
             btnBrowse1.Text = "Browse";
             btnBrowse1.UseVisualStyleBackColor = true;
-            btnBrowse1.Click += button1_Click;
+            btnBrowse1.Click += btnBrowse1_Click;
             // 
-            // label3
+            // lblFile2
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(7, 177);
-            label3.Name = "label3";
-            label3.Size = new Size(103, 21);
-            label3.TabIndex = 4;
-            label3.Text = "Document 2";
+            lblFile2.AutoSize = true;
+            lblFile2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFile2.Location = new Point(7, 177);
+            lblFile2.Name = "lblFile2";
+            lblFile2.Size = new Size(103, 21);
+            lblFile2.TabIndex = 4;
+            lblFile2.Text = "Document 2";
             // 
-            // textBox2
+            // txtFile2
             // 
-            textBox2.Location = new Point(116, 179);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(243, 23);
-            textBox2.TabIndex = 5;
-            textBox2.TextChanged += textBox2_TextChanged;
+            txtFile2.Location = new Point(116, 179);
+            txtFile2.Name = "txtFile2";
+            txtFile2.Size = new Size(243, 23);
+            txtFile2.TabIndex = 5;
             // 
             // btnBrowse2
             // 
@@ -104,7 +108,7 @@
             btnBrowse2.TabIndex = 6;
             btnBrowse2.Text = "Browse";
             btnBrowse2.UseVisualStyleBackColor = true;
-            btnBrowse2.Click += button2_Click;
+            btnBrowse2.Click += btnBrowse2_Click;
             // 
             // btnCompare
             // 
@@ -115,29 +119,28 @@
             btnCompare.TabIndex = 7;
             btnCompare.Text = "Temukan Perbedaan";
             btnCompare.UseVisualStyleBackColor = true;
-            btnCompare.Click += button3_Click;
+            btnCompare.Click += btnCompare_Click;
             // 
-            // rtbHasil
+            // rtbResult
             // 
-            rtbHasil.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            rtbHasil.Location = new Point(8, 292);
-            rtbHasil.Name = "rtbHasil";
-            rtbHasil.ReadOnly = true;
-            rtbHasil.Size = new Size(444, 297);
-            rtbHasil.TabIndex = 8;
-            rtbHasil.Text = "";
-            rtbHasil.TextChanged += richTextBox1_TextChanged;
+            rtbResult.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            rtbResult.Location = new Point(8, 292);
+            rtbResult.Name = "rtbResult";
+            rtbResult.ReadOnly = true;
+            rtbResult.Size = new Size(444, 297);
+            rtbResult.TabIndex = 8;
+            rtbResult.Text = "";
             // 
-            // button4
+            // btnBack
             // 
-            button4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(12, 12);
-            button4.Name = "button4";
-            button4.Size = new Size(46, 25);
-            button4.TabIndex = 9;
-            button4.Text = "Back";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            btnBack.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBack.Location = new Point(12, 12);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(46, 25);
+            btnBack.TabIndex = 9;
+            btnBack.Text = "Back";
+            btnBack.UseVisualStyleBackColor = true;
+            btnBack.Click += btnBack_Click;
             // 
             // CompareDocument
             // 
@@ -145,35 +148,23 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(464, 601);
-            Controls.Add(button4);
-            Controls.Add(rtbHasil);
+            Controls.Add(btnBack);
+            Controls.Add(rtbResult);
             Controls.Add(btnCompare);
             Controls.Add(btnBrowse2);
-            Controls.Add(textBox2);
-            Controls.Add(label3);
+            Controls.Add(txtFile2);
+            Controls.Add(lblFile2);
             Controls.Add(btnBrowse1);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(lblFile1);
+            Controls.Add(txtFile1);
+            Controls.Add(lblTitle);
             Name = "CompareDocument";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CompareDocument";
-            Load += CompareDocument_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private TextBox textBox1;
-        private Label label2;
-        private Button btnBrowse1;
-        private Label label3;
-        private TextBox textBox2;
-        private Button btnBrowse2;
-        private Button btnCompare;
-        private RichTextBox rtbHasil;
-        private Button button4;
     }
 }

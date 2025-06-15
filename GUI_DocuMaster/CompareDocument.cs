@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using DocuMaster.Helpers;
 using GUI_DocuMaster.Helpers;
@@ -17,98 +12,70 @@ namespace GUI_DocuMaster
         public CompareDocument()
         {
             InitializeComponent();
+            this.FormClosed += (s, e) => Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // Handler untuk Browse file 1
+        private void btnBrowse1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Supported Files (*.txt;*.docx;*.pdf)|*.txt;*.docx;*.pdf|All Files (*.*)|*.*";
-            if (ofd.ShowDialog() == DialogResult.OK)
+            txtFile1.Text = BrowseFile();
+        }
+
+        // Handler untuk Browse file 2
+        private void btnBrowse2_Click(object sender, EventArgs e)
+        {
+            txtFile2.Text = BrowseFile();
+        }
+
+        // Fungsi buka file dialog (mengurangi duplikasi kode)
+        private string BrowseFile()
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog())
             {
-                textBox1.Text = ofd.FileName;
+                ofd.Filter = "Supported Files (*.txt;*.docx;*.pdf)|*.txt;*.docx;*.pdf|All Files (*.*)|*.*";
+                return ofd.ShowDialog() == DialogResult.OK ? ofd.FileName : "";
             }
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        // Handler tombol Compare
+        private void btnCompare_Click(object sender, EventArgs e)
         {
+            string path1 = txtFile1.Text;
+            string path2 = txtFile2.Text;
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Supported Files (*.txt;*.docx;*.pdf)|*.txt;*.docx;*.pdf|All Files (*.*)|*.*";
-            if (ofd.ShowDialog() == DialogResult.OK)
+            if (!File.Exists(path1) || !File.Exists(path2))
             {
-                textBox2.Text = ofd.FileName;
+                MessageBox.Show("Pilih dua file (.txt, .docx, .pdf) terlebih dahulu.");
+                return;
             }
-        }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string path1 = textBox1.Text;
-            string path2 = textBox2.Text;
-
-            if (File.Exists(path1) && File.Exists(path2))
+            try
             {
-                // Ambil statistik
+                // Ambil statistik kedua file
                 string stats1 = StatisticsHelper.GetTextStatistics(path1);
                 string stats2 = StatisticsHelper.GetTextStatistics(path2);
 
-                // Bandingkan file
-                var perbedaan = DocumentComparer.CompareFiles(path1, path2);
+                // Hitung persentase kemiripan
+                double similarity = SimilarityHelper.CalculateJaccardSimilarity(path1, path2);
 
-                string hasilPerbedaan = "";
-                if (perbedaan.Count == 0)
-                {
-                    hasilPerbedaan = "Dokumen sama persis!";
-                }
-                //else
-                //{
-                //    hasilPerbedaan = "Perbedaan ditemukan di baris:\n\n";
-                //    foreach (var beda in perbedaan)
-                //    {
-                //        hasilPerbedaan += $"Baris {beda.Baris}:\nFile 1: {beda.Text1}\n\nFile 2: {beda.Text2}\n\n";
-                //    }
-                //}
-
-                // Gabungkan hasil statistik + hasil compare ke RichTextBox
-                rtbHasil.Text = stats1 + "\n" + stats2 + "\n" + hasilPerbedaan;
-
-                double persentase = SimilarityHelper.CalculateJaccardSimilarity(path1, path2);
-
-                rtbHasil.Text =
-                    stats1 + "\n" + stats2 +
-                    $"\nPersentase kemiripan (berdasarkan kata unik): {persentase:F2}%" +
-                    "\n" + hasilPerbedaan;
+                // Tampilkan statistik dan persentase saja
+                rtbResult.Text =
+                    stats1 + "\n\n" +
+                    stats2 + "\n\n" +
+                    $"Persentase kemiripan (berdasarkan kata unik): {similarity:F2}%";
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Pilih dua file .txt terlebih dahulu.");
+                MessageBox.Show("Terjadi kesalahan saat membandingkan file: " + ex.Message);
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        // Handler tombol Back
+        private void btnBack_Click(object sender, EventArgs e)
         {
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
-
             this.Hide();
-        }
-
-        private void CompareDocument_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -12,6 +12,7 @@ namespace GUI_DocuMaster
         public WordConverter()
         {
             InitializeComponent();
+            this.FormClosed += (s, e) => Application.Exit();
         }
 
         // Inisialisasi awal saat form dimuat
@@ -112,6 +113,16 @@ namespace GUI_DocuMaster
         private void button4_Click(object sender, EventArgs e)
         {
             btnBack_Click(sender, e); // Alihkan ke handler utama
+        }
+
+        private void lblFilePath_Click(object sender, EventArgs e)
+        {
+            // Kosongkan atau isi sesuai kebutuhan
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            // Kosongkan atau isi sesuai kebutuhan
         }
     }
 }

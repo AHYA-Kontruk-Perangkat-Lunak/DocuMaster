@@ -9,31 +9,45 @@ namespace GUI_DocuMaster.Helpers
     public static class SimilarityHelper
     {
         /// <summary>
-        /// Hitung persentase kemiripan dua file berbasis Jaccard Similarity pada kata unik.
+        /// Menghitung persentase kemiripan dua file menggunakan Jaccard Similarity pada kata unik.
         /// </summary>
+        /// <param name="filePath1">Path file pertama.</param>
+        /// <param name="filePath2">Path file kedua.</param>
+        /// <returns>Persentase kemiripan [0.0 - 100.0]</returns>
         public static double CalculateJaccardSimilarity(string filePath1, string filePath2)
         {
+            // Defensive: cek file exists, supaya error lebih informatif (optional, bisa juga di layer atas)
+            if (!File.Exists(filePath1)) throw new FileNotFoundException($"File tidak ditemukan: {filePath1}");
+            if (!File.Exists(filePath2)) throw new FileNotFoundException($"File tidak ditemukan: {filePath2}");
+
             string text1 = FileTextReader.ReadText(filePath1);
             string text2 = FileTextReader.ReadText(filePath2);
 
-            // Normalisasi agar adil
-            string norm1 = NormalisasiText.Normalize(text1);
-            string norm2 = NormalisasiText.Normalize(text2);
-
-            var words1 = new HashSet<string>(norm1.Split(' ', StringSplitOptions.RemoveEmptyEntries));
-            var words2 = new HashSet<string>(norm2.Split(' ', StringSplitOptions.RemoveEmptyEntries));
+            var words1 = NormalizeAndSplit(text1);
+            var words2 = NormalizeAndSplit(text2);
 
             if (words1.Count == 0 && words2.Count == 0) return 100.0;
             if (words1.Count == 0 || words2.Count == 0) return 0.0;
 
-            var intersection = new HashSet<string>(words1);
-            intersection.IntersectWith(words2);
+            int intersection = words1.Intersect(words2).Count();
+            int union = words1.Union(words2).Count();
 
-            var union = new HashSet<string>(words1);
-            union.UnionWith(words2);
-
-            double similarity = (double)intersection.Count / union.Count * 100.0;
+            double similarity = (double)intersection / union * 100.0;
             return similarity;
+        }
+
+        /// <summary>
+        /// Menormalkan string dan membaginya menjadi kumpulan kata unik (HashSet).
+        /// </summary>
+        /// <param name="text">Teks mentah dari file</param>
+        /// <returns>HashSet kata unik yang sudah dinormalisasi</returns>
+        private static HashSet<string> NormalizeAndSplit(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text)) return new HashSet<string>();
+            string normalized = NormalisasiText.Normalize(text);
+            return new HashSet<string>(
+                normalized.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+            );
         }
     }
 }

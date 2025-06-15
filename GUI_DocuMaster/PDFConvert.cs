@@ -16,6 +16,7 @@ namespace GUI_DocuMaster
             InitializeComponent();
             this.BackColor = Color.LightYellow;
             this.Text = "PDFConvert";
+            this.FormClosed += (s, e) => Application.Exit();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
